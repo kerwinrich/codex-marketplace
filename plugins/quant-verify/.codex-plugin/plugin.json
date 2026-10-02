@@ -1,0 +1,15 @@
+{
+  "name": "quant-verify",
+  "version": "0.1.0",
+  "description": "Acceptance and audit workflows for A-share quant / data projects: freshness, point-in-time discipline, metric semantics, and trustworthy reporting.",
+  "author": { "name": "kerwinrich" },
+  "license": "MIT",
+  "keywords": ["quant", "a-share", "acceptance", "point-in-time", "data-quality"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Quant Verify",
+    "shortDescription": "量化项目验收与口径核查",
+    "developerName": "kerwinrich",
+    "category": "Data & Analytics"
+  }
+}

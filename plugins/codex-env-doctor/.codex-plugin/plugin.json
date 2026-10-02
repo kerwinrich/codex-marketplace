@@ -1,0 +1,15 @@
+{
+  "name": "codex-env-doctor",
+  "version": "0.1.0",
+  "description": "Diagnose and recover Codex plugins, marketplaces, config, and local proxy issues.",
+  "author": { "name": "kerwinrich" },
+  "license": "MIT",
+  "keywords": ["codex", "troubleshooting", "marketplace", "plugins", "proxy"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Env Doctor",
+    "shortDescription": "Codex 环境排障：市场/插件/配置/代理",
+    "developerName": "kerwinrich",
+    "category": "Developer Tools"
+  }
+}
