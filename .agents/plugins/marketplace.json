@@ -5,16 +5,16 @@
   },
   "plugins": [
     {
-      "name": "hello-codex",
+      "name": "alphaos-lab",
       "source": {
         "source": "local",
-        "path": "./plugins/hello-codex"
+        "path": "./plugins/alphaos-lab"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "Data & Analytics"
     },
     {
       "name": "codex-env-doctor",

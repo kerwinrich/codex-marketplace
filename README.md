@@ -7,21 +7,21 @@ A Codex plugin marketplace hosted on GitHub.
 ```sh
 codex plugin marketplace add kerwinrich/codex-marketplace --ref main
 codex plugin list
-codex plugin add hello-codex@codex-marketplace
+codex plugin add alphaos-lab@codex-marketplace
 ```
 
 ## Layout
 
 ```
 .agents/plugins/marketplace.json     # marketplace manifest (root)
-plugins/hello-codex/
+plugins/alphaos-lab/
 ├── .codex-plugin/plugin.json        # plugin manifest
-└── skills/hello-codex/SKILL.md      # skill
+└── skills/alphaos-lab/SKILL.md      # skill
 ```
 
 ## Add a plugin
 
-1. Copy `plugins/hello-codex` to `plugins/<your-plugin>`.
+1. Copy an existing plugin directory under `plugins/` to `plugins/<your-plugin>`.
 2. Update `.codex-plugin/plugin.json` (`name`, `version`, `description`).
 3. Add an entry to `.agents/plugins/marketplace.json`.
 4. Bump `version` in `plugin.json` so `codex plugin marketplace upgrade` picks up the change.

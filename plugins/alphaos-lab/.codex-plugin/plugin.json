@@ -1,0 +1,15 @@
+{
+  "name": "alphaos-lab",
+  "version": "0.2.0",
+  "description": "Entry-point workflow for AlphaOS, a multi-asset quantitative research and investment decision OS: locate truth sources, load task context by doc layer, and respect Gate/CR discipline.",
+  "author": { "name": "kerwinrich" },
+  "license": "MIT",
+  "keywords": ["alphaos", "quant", "workflow", "context", "docs"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AlphaOS 工作台",
+    "shortDescription": "AlphaOS 项目入口：真源、上下文与 Gate 纪律",
+    "developerName": "kerwinrich",
+    "category": "Data & Analytics"
+  }
+}
