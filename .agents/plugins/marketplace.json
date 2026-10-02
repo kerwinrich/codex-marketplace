@@ -1,0 +1,20 @@
+{
+  "name": "codex-marketplace",
+  "interface": {
+    "displayName": "My Codex Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "hello-codex",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hello-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
